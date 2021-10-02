@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0px;
+  font-family: sans-serif;
+}
+h2 {
+  color: red;
+  padding: 20px;
+}
+p {
+  padding-left: 10px;
+}
+h4 {
+  color: red;
+  padding: 20px;
+}
