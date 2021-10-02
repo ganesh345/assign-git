@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="regform">
+        <h1>
+ Registration Form</h1>
+</div>
+<div class="main">
+    
+        <form method="POST">
+            <div id="name">
+                <h5 class="name">
+Name </h5>
+<input class="firstname" type="text" name="first_name"><br>
+                <label class="firstlabel">first name</label>
+                <input class="lastname" type="text" name="last_name"><br>
+                <label class="lastlabel">last name</label>
+            </div>
+<h5 class="name">
+Email </h5>
+<input class="email" type="email" name="email">
+<h5 class="name">
+Password</h5>
+<input class="company" type="password">
+            <h5 class="name">
+Phone</h5>
+<input class="Code" type="text" name="area_code">
+            <label class="area-code">Area Code</label>
+            <input class="number" type="text" name="phone">
+            <label class="phone-number">Phone Number</label>
+    
+    
+            <h5 class="name">
+Role</h5>
+<select class="option" name="subject">
+                <option disabled="disabled" selected="selected">--Choose option--</option>
+                <option>Director</option>
+                <option>Coach</option>
+                <option>Referee</option>
+            </select>
+    
+            <h5 id="coustomer">
+Gender
+<label class="radio">
+                <input class="radio-one" type="radio" checked="checked" >
+                <span class="checkmark"></span>
+                Male
+            </label>
+    
+            <label class="radio">
+                <input class="radio-two" type="radio" >
+                <span class="checkmark"></span>
+                Female
+            </label>
+            <label class="radio">
+                <input class="radio-three" type="radio">
+                <span class="checkmark"></span>
+                Other
+            </label> 
+            </h5>
+
+            <input type="submit" value="Register">
+        <div class="register_link">
+          Already a member? <a href="login.html">Login</a>
+        </div>
+    
+    
+        </form>
+</div>
+</body>
+</html>
