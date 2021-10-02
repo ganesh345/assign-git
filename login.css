@@ -11,7 +11,7 @@ body,html{
  font: Arial;
 }
 .background{
-    background-image: url(images/9.jpg);
+    background-image: url(9.jpg);
     background-size: cover;
     filter: blur(6px);
     height: 100vh;
